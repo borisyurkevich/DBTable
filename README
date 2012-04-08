@@ -1,0 +1,27 @@
+About
+Program connects to Derby DB and prints out DB data to plain table
+
+This program can be useful for
+For those who're learning how to work with SQL database from Java Class.
+
+How To Run
+
+Prepare your Derby Server
+	A.	Download javadb.zip and extract it to your your home directory
+	B.	Open bin folder and run StartNetworkServer
+
+Set up simple DB
+
+	A.	Download MyDB.zip and extract it to your your home directory
+
+
+Start app
+	A.	Download ZIP
+	B.	Extract archive and remember the name
+	C.	Run Eclipse
+	D.	Select File > Import > Existing Projects Into Workspace > General > Select Archive File > Archive and select your archive 
+	E.	Select Folder with Project DBTable
+	F.	Click Run > Run Configurations > Classpath
+	G.	In your  and Bootstarp Entries should be three items: JRE, derby.jar and derbyClient.jar, add second and third from your javadb > lib folder (add external jar)
+	H.	Check User Entries. There is DBTable there. If not - add it.
+	I.	In default package select DBTable.java run as java program
